@@ -1,0 +1,125 @@
+/*
+*{
+    
+}
+*/
+
+
+.barra-superior {
+    background-color: 5E35B1(224, 6, 6);
+    padding: 15px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+
+
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
+  
+.horizontal li .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D1C4E9;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+  
+.horizontal li .boton:hover {
+    background-color: #5E35B1;
+}
+  
+
+
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h1{
+    color:rgb(89, 47, 117);
+}
+
+.parte_1 {
+    background-color: yellow;
+}
+
+.part2{
+    background-color: rgb(236, 236, 236);
+    padding: 50px;
+    box-shadow: 5px 10px 20px 20px rgb(89, 47, 117);
+    margin-top: 40px;
+
+}
+
+.contenedor {
+    display: flex; /* Esto pone los divs en fila (horizontalmente) */
+    gap: 20px; /* Espacio entre las imágenes (opcional) */
+}
+
+.imagen {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 6px 6px 15px rgb(89, 47, 117);
+}
+
+.imagen1 {
+    background-image: url('imagenes/img1.jfif');
+    
+}
+
+.imagen2 {
+    background-image: url('imagenes/img2.jfif');
+}
+
+.imagen3 {
+    background-image: url('imagenes/imagen3.jpeg');
+}
+
+.imagen4 {
+    background-image: url('imagenes/imagen4.jpg');
+}
+
+.imagen5 {
+    background-image: url('imagenes/imagen5.jpg');
+}
+
+.imagen6 {
+    background-image: url('imagenes/imagen6.jpeg');
+}
+
+
+/*  Informacion institucional */ 
+
+.pagina-informacion {
+    background-color: #f3f0f8; /* fondo violeta muy clarito */
+  }
+  
+  /* Caja de contenido, como antes */
+
+  .pagina-informacion .contenedor-texto h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #5E35B1;
+  }
+  
+  .pagina-informacion .contenedor-texto p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
