@@ -123,3 +123,81 @@ h1{
     font-size: 18px;
     line-height: 1.6;
   }
+
+  /* agrego estilos para pagina contactanos */
+
+  .hero-contacto {
+    background-image: url('https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5'); /* Usá tu imagen aquí */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-contacto h1 {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Contenido principal */
+  .contenido-contacto {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  /* Información de contacto */
+  .info-contacto {
+    flex: 1;
+    max-width: 400px;
+    color: #4e6b80;
+  }
+  
+  .info-contacto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Formulario */
+  .formulario-contacto {
+    background-color: #f9f9f9;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario-contacto input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formulario-contacto button {
+    background-color: #4e6b80;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .formulario-contacto button:hover {
+    background-color: #39546a;
+  }
